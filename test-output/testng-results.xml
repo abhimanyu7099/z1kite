@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[---open browser]]>
+    </line>
+    <line>
+      <![CDATA[----login to Application----]]>
+    </line>
+    <line>
+      <![CDATA[running verify button  'Start investing' test script]]>
+    </line>
+    <line>
+      <![CDATA[----logout From Application----]]>
+    </line>
+    <line>
+      <![CDATA[----close browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32954" started-at="2022-07-22T06:42:16 PDT" finished-at="2022-07-22T06:42:49 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32954" started-at="2022-07-22T06:42:16 PDT" finished-at="2022-07-22T06:42:49 PDT">
+      <class name="testClasses.KiteLoginInvestingTest3">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testClasses.KiteLoginInvestingTest3@cb0ed20]" name="openBrowser" is-config="true" duration-ms="13610" started-at="2022-07-22T06:42:16 PDT" finished-at="2022-07-22T06:42:29 PDT">
+          <reporter-output>
+            <line>
+              <![CDATA[---open browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:testClasses.KiteLoginInvestingTest3@cb0ed20]" name="loginToApp" is-config="true" duration-ms="4185" started-at="2022-07-22T06:42:30 PDT" finished-at="2022-07-22T06:42:34 PDT">
+          <reporter-output>
+            <line>
+              <![CDATA[----login to Application----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="verifyinvestmentButton()[pri:0, instance:testClasses.KiteLoginInvestingTest3@cb0ed20]" name="verifyinvestmentButton" duration-ms="8295" started-at="2022-07-22T06:42:34 PDT" finished-at="2022-07-22T06:42:42 PDT">
+          <reporter-output>
+            <line>
+              <![CDATA[running verify button  'Start investing' test script]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyinvestmentButton -->
+        <test-method status="PASS" signature="takesceenshot(org.testng.ITestResult)[pri:0, instance:testClasses.KiteLoginInvestingTest3@cb0ed20]" name="takesceenshot" is-config="true" duration-ms="2446" started-at="2022-07-22T06:42:42 PDT" finished-at="2022-07-22T06:42:44 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyinvestmentButton status=SUCCESS method=KiteLoginInvestingTest3.verifyinvestmentButton()[pri:0, instance:testClasses.KiteLoginInvestingTest3@cb0ed20] output=running verify button  'Start investing' test script]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[----logout From Application----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- takesceenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testClasses.KiteLoginInvestingTest3@cb0ed20]" name="closeBrowser" is-config="true" duration-ms="4221" started-at="2022-07-22T06:42:44 PDT" finished-at="2022-07-22T06:42:49 PDT">
+          <reporter-output>
+            <line>
+              <![CDATA[----close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testClasses.KiteLoginInvestingTest3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
